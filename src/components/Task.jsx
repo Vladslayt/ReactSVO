@@ -1,17 +1,20 @@
 import React from 'react';
+import LongMenu from "./Options";
 
 const Task = (props) => {
     return (
         <div>
             <div className="task">
                 <div>
-                    <span>Из {props.name}</span>
 
-                    <span> В {props.name}</span>
+                    <span>Из {props.fromPlace}</span>
 
-                    <span> Время {props.name}</span>
+                    <span> В {props.toPlace}</span>
 
-                    <span> Автобус {props.name}</span>
+                    <span> Время {props.timeDate}</span>
+
+                    <span> Автобус {props.busNum}</span>
+                    <LongMenu className="verticon"/>
 
                 </div>
             </div>
@@ -19,5 +22,5 @@ const Task = (props) => {
 
     );
 };
-Task.defaultProps = {name: "", description: ""};
+/*Task.defaultProps = {fromPlace: "", description: ""};*/
 export default Task;

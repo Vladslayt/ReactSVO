@@ -6,10 +6,12 @@ import TaskInProgress from "./components/TaskInProgress";
 import Progress from "./components/Progress";
 import LoggedIn from "./components/LoggedIn";
 import MyModal from "./components/UI/MyModal/MyModal";
+import CompletedQueue from "./components/CompletedQueue";
 
 
 function App() {
     const [modal, setModal] = useState(false);
+    /*const [tasks, setTasks] = useState([{}]);*/
 
     return (
         <div className="App">
@@ -28,7 +30,7 @@ function App() {
                 <div className="gridItem" id="item3">
                     <button className="buttonStyle" onClick={() => setModal(true)}>Завершенные задачи</button>
                     <MyModal className="myModalContent" visible={modal} setVisible={setModal}>
-                        <Queue />
+                        <CompletedQueue />
                     </MyModal>
                     <LoggedIn />
                 </div>

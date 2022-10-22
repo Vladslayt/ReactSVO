@@ -109,7 +109,7 @@
 }
 
 span {
-    margin-right:13vw;
+    margin-right:6vw;
 }
 /*
 .header {
@@ -118,3 +118,7 @@ span {
     display: block;
     background-color: white;
 }*/
+.optionsButton {
+    float: right;
+
+}
