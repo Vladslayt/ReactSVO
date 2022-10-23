@@ -20,6 +20,11 @@ function App() {
                     <div>
                         <h3>Очередь</h3>
                     </div>
+                    {/*{tasks.length ! == 0
+                    ? <Queue />
+                    :<div>Записи не найдены</div>
+                    }найдены ли посты*/}
+
                     <Queue />
                 </div>
                 <div className="gridItem inProcess" id="item2">

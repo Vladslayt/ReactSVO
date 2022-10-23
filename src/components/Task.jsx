@@ -1,5 +1,5 @@
 import React from 'react';
-import LongMenu from "./Options";
+import DropdownExampleUpward from "./Options";
 
 const Task = (props) => {
     return (
@@ -14,7 +14,8 @@ const Task = (props) => {
                     <span> Время {props.timeDate}</span>
 
                     <span> Автобус {props.busNum}</span>
-                    <LongMenu className="verticon"/>
+
+                    <DropdownExampleUpward />
 
                 </div>
             </div>

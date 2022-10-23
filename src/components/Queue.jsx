@@ -9,7 +9,7 @@ import LongMenu from "./Options";
 const Queue = () => {
     return (
         <div>
-            <Task fromPlace="gate1ttttttttttt" toPlace="gatettttttttttt4" timeDate="1tttt1:00" busNum="561tttttt"/>
+            <Task fromPlace="gate1" toPlace="gate4" timeDate="11:00" busNum="561"/>
             <Task />
             <Task />
             <Task />
@@ -24,7 +24,6 @@ const Queue = () => {
             <Task />
             <Task />
             <Task />
-
 
         </div>
     );

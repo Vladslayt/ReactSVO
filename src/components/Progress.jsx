@@ -4,7 +4,7 @@ import TaskInProgress from "./TaskInProgress";
 const Progress = () => {
     return (
         <div>
-            <TaskInProgress name="Абобус 69"/>
+            <TaskInProgress />
             <TaskInProgress />
             <TaskInProgress />
             <TaskInProgress />
